@@ -5,6 +5,7 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
+// import Portfolios from "./components/Portfolio/portfolios";
 import Testimonial from "./components/Testimonials/Testimonial";
 // import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -23,10 +24,17 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <Services />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Experience />
+      <Services />
       <Works />
       <Portfolio />
+      {/* <Portfolios /> */}
       <Testimonial />
       {/* <Contact /> */}
       <Footer />

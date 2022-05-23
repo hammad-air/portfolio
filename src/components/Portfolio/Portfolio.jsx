@@ -14,7 +14,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}></span>
-      <span>Ce</span>
+      <span>Chatbots Project</span>
 
       {/* slider */}
       <Swiper
@@ -27,10 +27,10 @@ const Portfolio = () => {
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <a href="https://hammad-air.github.io/construction-web/"> <img src={Ecommerce} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+         <a href=""><img src={MusicApp} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
